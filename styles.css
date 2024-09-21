@@ -1,0 +1,78 @@
+:root {
+  /* Colors: */
+  --white: #fff;
+  --yellow: #f4d04e;
+  --gray-500: #6b6b6b;
+  --gray-950: #121212;
+
+  /* Font Family */
+  --ff-base: "Figtree", sans-serif;
+
+  /* Font Size: */
+  --fs-small: 0.875rem; /* 14px */
+  --fs-base: 1rem; /* 16px */
+  --fs-h2: 1.5rem; /* 24px */
+
+  /* Font Weight: */
+  --fw-base: 500;
+  --fw-bold: 800;
+
+  /* Line Height: */
+  /* --lh-h2: 1.2; */
+  --lh-base: 1.5;
+
+  /* Letter Spacing: */
+  --ls-base: 0;
+
+  /* Spacing: */
+  --sp-16px: 1rem;
+  --sp-12px: 0.75rem;
+  --sp-8px: 0.5rem;
+  --sp-4px: 0.25rem;
+}
+
+/* 
+********************************
+SELF-HOSTING FONT:
+********************************
+*/
+
+/* VARIABLE FONT: */
+@font-face {
+  font-family: "Figtree";
+  src: url("/assets/fonts/variable-fonts/Figtree-VariableFont_wght.woff2")
+    format("woff2 supports variations");
+  src: url("/assets/fonts/variable-fonts/Figtree-VariableFont_wght.woff2")
+    format("woff2-variations");
+  font-weight: 300 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 
+********************************
+GLOBAL CSS VALUES:
+********************************
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--ff-base);
+  font-size: var(--fs-base);
+  line-height: var(--lh-base);
+  letter-spacing: var(--ls-base);
+
+  background-color: var(--yellow);
+  color: var(--gray-500);
+}
+
+/* 
+********************************
+MAIN:
+********************************
+*/
