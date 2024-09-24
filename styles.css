@@ -70,6 +70,7 @@ GLOBAL CSS VALUES:
 body {
   font-family: var(--ff-base);
   font-size: var(--fs-base);
+  font-weight: var(--fw-base);
   line-height: var(--lh-base);
   letter-spacing: var(--ls-base);
 

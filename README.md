@@ -18,12 +18,12 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Project Screenshot
 
-![Screenshot of solution](/images/solution-fraser.png)
+![Screenshot of solution](/assets/img/solution-fraser.png)
 
 ### Project Links
 
 - Solution URL: [Click Here]()
-- Live Site URL: [Click Here]()
+- Live Site URL: [Click Here](https://fm-blogpreviewcard-fraser.netlify.app/)
 - Frontend Mentor Profile: [@fraserjubb](https://www.frontendmentor.io/profile/fraserjubb)
 
 ## My Process
