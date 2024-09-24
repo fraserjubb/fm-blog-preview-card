@@ -1,6 +1,7 @@
 :root {
   /* Colors: */
   --white: #fff;
+  --black: #000;
   --yellow: #f4d04e;
   --gray-500: #6b6b6b;
   --gray-950: #121212;
@@ -9,6 +10,7 @@
   --ff-base: "Figtree", sans-serif;
 
   /* Font Size: */
+  --fs-footer: 0.75rem; /* 12px */
   --fs-small: 0.875rem; /* 14px */
   --fs-base: 1rem; /* 16px */
   --fs-h2: 1.5rem; /* 24px */
@@ -148,4 +150,37 @@ MAIN:
 .card__profile {
   width: 2rem;
   height: 2rem;
+}
+
+/* 
+********************************
+FOOTER:
+********************************
+*/
+.attribution {
+  text-align: center;
+  font-size: var(--fs-footer);
+  color: var(--gray-500);
+  margin-bottom: var(--sp-24px);
+}
+
+/* Default State */
+.attribution a:link {
+  color: var(--gray-950);
+  text-decoration: none;
+}
+
+/* Visited State */
+.attribution a:visited {
+  color: var(--gray-950);
+}
+
+/* State On Hover */
+.attribution a:hover {
+  color: var(--black);
+}
+
+/* State Whilst Being Clicked */
+.attribution a:active {
+  color: var(--black);
 }
