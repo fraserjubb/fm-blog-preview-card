@@ -25,8 +25,11 @@
   --ls-base: 0;
 
   /* Spacing: */
+  --sp-24px: 1.5rem;
+  --sp-20px: 1.25rem;
   --sp-16px: 1rem;
   --sp-12px: 0.75rem;
+  --sp-10px: 0.625rem;
   --sp-8px: 0.5rem;
   --sp-4px: 0.25rem;
 }
@@ -68,7 +71,7 @@ body {
   letter-spacing: var(--ls-base);
 
   background-color: var(--yellow);
-  color: var(--gray-500);
+  color: var(--gray-950);
 }
 
 /* 
@@ -76,3 +79,73 @@ body {
 MAIN:
 ********************************
 */
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  max-width: 24rem;
+  padding: var(--sp-24px);
+  border-radius: var(--sp-20px);
+  gap: var(--sp-24px);
+
+  box-shadow: 8px 8px 0px 0px rgb(0, 0, 0);
+}
+
+.card__category,
+.card__title,
+.card__author {
+  font-weight: var(--fw-bold);
+}
+
+.card__category,
+.card__date,
+.card__author {
+  font-size: var(--fs-small);
+}
+
+.card__image {
+  border-radius: var(--sp-10px);
+}
+
+.card__body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-12px);
+}
+
+.card__tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 5.125rem;
+  height: 1.813rem;
+  border-radius: var(--sp-4px);
+  background-color: var(--yellow);
+}
+
+.card__title {
+  font-size: var(--fs-h2);
+}
+
+.card__description {
+  color: var(--gray-500);
+}
+
+.card__footer {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-12px);
+}
+
+.card__profile {
+  width: 2rem;
+  height: 2rem;
+}
