@@ -191,3 +191,13 @@ FOOTER:
 .attribution a:active {
   color: var(--gray-700);
 }
+
+/* 
+********************************
+HOVER STATE:
+********************************
+*/
+.card__title:hover {
+  color: var(--yellow);
+  cursor: pointer;
+}
