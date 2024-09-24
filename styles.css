@@ -11,9 +11,10 @@
   --ff-base: "Figtree", sans-serif;
 
   /* Font Size: */
-  --fs-footer: 0.75rem; /* 12px */
+  --fs-micro: 0.75rem; /* 12px */
   --fs-small: 0.875rem; /* 14px */
   --fs-base: 1rem; /* 16px */
+  --fs-h2-small: 1.25rem; /* 20px */
   --fs-h2: 1.5rem; /* 24px */
 
   /* Font Weight: */
@@ -165,7 +166,7 @@ FOOTER:
 */
 .attribution {
   text-align: center;
-  font-size: var(--fs-footer);
+  font-size: var(--fs-micro);
   color: var(--gray-950);
   margin-bottom: var(--sp-24px);
 }
@@ -200,4 +201,39 @@ HOVER STATE:
 .card__title:hover {
   color: var(--yellow);
   cursor: pointer;
+}
+
+/* 
+********************************
+MEDIA QUERIES:
+********************************
+*/
+/* 425px | 26.57em */
+@media (max-width: 26.57em) {
+  .card {
+    max-width: 20.44rem;
+  }
+
+  .card__image {
+    min-width: 17.44rem;
+  }
+
+  .card__category,
+  .card__date {
+    font-size: var(--fs-micro);
+  }
+
+  .card__category {
+    width: 4.56rem;
+    height: 1.625rem;
+  }
+
+  .card__title {
+    font-size: var(--fs-h2-small);
+  }
+
+  .card__description,
+  .card__author {
+    font-size: var(--fs-small);
+  }
 }
