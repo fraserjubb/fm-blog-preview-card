@@ -82,7 +82,7 @@ MAIN:
 ********************************
 */
 .container {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -100,6 +100,12 @@ MAIN:
   box-shadow: 8px 8px 0px 0px rgb(0, 0, 0);
 }
 
+.card__image {
+  width: 100%;
+  border-radius: var(--sp-10px);
+}
+
+/* Card Body: */
 .card__category,
 .card__title,
 .card__author {
@@ -110,10 +116,6 @@ MAIN:
 .card__date,
 .card__author {
   font-size: var(--fs-small);
-}
-
-.card__image {
-  border-radius: var(--sp-10px);
 }
 
 .card__body {
@@ -141,6 +143,7 @@ MAIN:
   color: var(--gray-500);
 }
 
+/* Card Footer: */
 .card__footer {
   display: flex;
   align-items: center;
@@ -164,6 +167,7 @@ FOOTER:
   margin-bottom: var(--sp-24px);
 }
 
+/* LINKS */
 /* Default State */
 .attribution a:link {
   color: var(--gray-950);
