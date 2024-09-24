@@ -127,7 +127,7 @@ MAIN:
   gap: var(--sp-12px);
 }
 
-.card__tag {
+.card__category {
   display: flex;
   justify-content: center;
   align-items: center;
