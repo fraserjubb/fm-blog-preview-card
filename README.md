@@ -22,7 +22,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Project Links
 
-- Solution URL: [Click Here]()
+- Solution URL: [Click Here](https://www.frontendmentor.io/solutions/blog-preview-card-solution---challenge-2-hEXohJX2cz)
 - Live Site URL: [Click Here](https://fm-blogpreviewcard-fraser.netlify.app/)
 - Frontend Mentor Profile: [@fraserjubb](https://www.frontendmentor.io/profile/fraserjubb)
 
