@@ -22,7 +22,6 @@
   --fw-bold: 800;
 
   /* Line Height: */
-  /* --lh-h2: 1.2; */
   --lh-base: 1.5;
 
   /* Letter Spacing: */
@@ -140,6 +139,7 @@ MAIN:
 }
 
 .card__title {
+  line-height: 1.2;
   font-size: var(--fs-h2);
 }
 
