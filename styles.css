@@ -105,7 +105,7 @@ MAIN:
 }
 
 .card__image {
-  width: 100%;
+  max-width: 100%;
   border-radius: var(--sp-10px);
 }
 
@@ -212,10 +212,6 @@ MEDIA QUERIES:
 @media (max-width: 26.57em) {
   .card {
     max-width: 20.44rem;
-  }
-
-  .card__image {
-    min-width: 17.44rem;
   }
 
   .card__category,
