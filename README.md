@@ -12,6 +12,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
   - [What I Learned](#what-i-learned)
   - [Continued Development](#continued-development)
   - [Useful Resources](#useful-resources)
+- [Noteworthy Updates Since Initial Submission](#noteworthy-updates-since-initial-submission)
 - [Connect With Me](#connect-with-me)
 
 ## Overview
@@ -71,6 +72,10 @@ After submitting this project, I wish to develop the following:
 - [Why to avoid embedding custom fonts (Article)](https://thehackernews.com/2022/01/german-court-rules-websites-embedding.html) - Interesting article which pushed me to learning how self-hosting fonts work.
 - [BEM Methodology (Article)](https://cssguidelin.es/#bem-like-naming) - I found this article to be extremely useful for guidelines on how to write BEM methodology.
 - [CSS Units Tutorial (YouTube)](https://www.youtube.com/watch?v=N5wpD9Ov_To) - I am someone who learns better through video tutorials. This was a great breakdown of suggestions on when to use certain Units.
+
+## Noteworthy Updates Since Initial Submission
+
+1. Added a media query to make card more responsive on mobile devices.
 
 ## Connect With Me
 
